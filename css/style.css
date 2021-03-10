@@ -41,6 +41,15 @@ body a {
 	    position: relative;
 		margin-bottom: 10.6em
 }
+.banner1{
+	background:url(../images/hp.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	min-height:500px;
+}
 
 .header{
 	padding:5em 0 10em;
@@ -790,7 +799,7 @@ h5.sub {
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -811,7 +820,7 @@ h5.sub {
 /*-- //to-top --*/
 /*--responsive--*/
 @media(max-width:1680px){
-	
+
 }
 @media(max-width:1440px){
 	.header {
@@ -851,7 +860,7 @@ h5.sub {
 	.banner {
 		min-height: 630px;
 		margin-bottom: 10.9em;
-		    background: url(../images/banner.jpg) no-repeat -62px 0px;
+		    background: url(../images/hp.jpg) no-repeat -62px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -953,7 +962,7 @@ h5.sub {
 	.banner {
 		min-height: 578px;
 		margin-bottom: 10.5em;
-		background: url(../images/banner.jpg) no-repeat -120px 0px;
+		background: url(../images/hp.jpg) no-repeat -120px 0px;
 		background-size: cover;
 	}
 	.work-left {
@@ -1037,7 +1046,7 @@ h5.sub {
 	.banner {
 		min-height: 538px;
 		margin-bottom: 9.8em;
-		background: url(../images/banner.jpg) no-repeat -96px 0px;
+		background: url(../images/hp.jpg) no-repeat -96px 0px;
 		background-size: cover;
 	}
 	.banner-right-w3-agileits iframe {
@@ -1095,7 +1104,7 @@ h5.sub {
 	.banner {
 		min-height: 490px;
 		margin-bottom: 10em;
-		background: url(../images/banner.jpg) no-repeat -45px 0px;
+		background: url(../images/hp.jpg) no-repeat -45px 0px;
 		background-size: cover;
 	}
 	p.pop {
@@ -1123,7 +1132,7 @@ h5.sub {
 	.banner {
 		min-height: 470px;
 		margin-bottom: 9.96em;
-		background: url(../images/banner.jpg) no-repeat -26px 0px;
+		background: url(../images/hp.jpg) no-repeat -26px 0px;
 		background-size: cover;
 	}
 	.banner-btm-grid-w3ls {
@@ -1220,7 +1229,7 @@ h5.sub {
 	.banner {
 		min-height: 435px;
 		margin-bottom: 9.2em;
-		background: url(../images/banner.jpg) no-repeat -33px 0px;
+		background: url(../images/hp.jpg) no-repeat -33px 0px;
 		background-size: cover;
 	}
 	.banner-right-w3-agileits iframe {
@@ -1236,7 +1245,7 @@ h5.sub {
 	.contact-agileits-w3layouts p {
 		font-size: 13.5px;
 	}
-	
+
 }
 @media(max-width:800px){
 	h4.title-w3ls {
@@ -1282,7 +1291,7 @@ h5.sub {
 		left: 22.5%;
 	}
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -100px 0px;
+		background: url(../images/hp.jpg) no-repeat -100px 0px;
 		background-size: cover;
 		    margin-bottom: 8.95em;
 	}
@@ -1339,7 +1348,7 @@ h5.sub {
 		top: 16em;
 	}
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -20px 0px;
+		background: url(../images/hp.jpg) no-repeat -20px 0px;
 		background-size: cover;
 		margin-bottom: 12.45em;
 		min-height: 355px;
@@ -1377,7 +1386,7 @@ h5.sub {
 		width: 30%;
 	}
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -60px 0px;
+		background: url(../images/hp.jpg) no-repeat -60px 0px;
 		background-size: cover;
 		margin-bottom: 32.8em;
 	}
@@ -1738,7 +1747,7 @@ h5.sub {
 	}
 	.banner {
 		margin-bottom: 29.79em;
-		background: url(../images/banner.jpg) no-repeat -25px 0px;
+		background: url(../images/hp.jpg) no-repeat -25px 0px;
 		background-size: cover;
 		min-height: 205px;
 	}
@@ -1807,7 +1816,7 @@ h5.sub {
 	}
 	.banner {
 		margin-bottom: 30.45em;
-		background: url(../images/banner.jpg) no-repeat -16px 0px;
+		background: url(../images/hp.jpg) no-repeat -16px 0px;
 		background-size: cover;
 		min-height: 192px;
 	}
@@ -1864,7 +1873,7 @@ h5.sub {
 	}
 	.banner {
 		margin-bottom: 29.2em;
-		background: url(../images/banner.jpg) no-repeat -5px 0px;
+		background: url(../images/hp.jpg) no-repeat -5px 0px;
 		background-size: cover;
 		min-height: 160px;
 	}
