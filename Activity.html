@@ -1,220 +1,328 @@
 <!DOCTYPE html>
-<html lang="en">
-<html lang="en">
+<html>
 
 <head>
-    <script src="jquery.js"></script>
-    <title>Welcome to myBlog: Harshil Patel</title>
-
-    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- js -->
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <title>My Resume Harshil Patel</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="My Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script
+        type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--mobile apps-->
+    <!--Custom Theme files-->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="css/swipebox.css">
+    <!--//Custom Theme files-->
+    <!--js-->
+    <script src="js/jquery-1.11.1.min.js"></script>
     <!-- //js -->
-    <link href='//fonts.googleapis.com/css?family=Oleo+Script:400,700' rel='stylesheet' type='text/css'>
-    <link
-            href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
-            rel='stylesheet' type='text/css'>
-    <link href="//fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
-
-
-
+    <!--web-fonts-->
+    <link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet'
+        type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+    <!--//web-fonts-->
+    <!--start-smooth-scrolling-->
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
     <script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-			});
-		});
-	</script>
-    <!-- start-smooth-scrolling -->
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <!--//end-smooth-scrolling-->
 </head>
 
 <body>
-
-<div class="banner-figures">
-    <div class="banner">
-        <div class="container banner-drop">
-            <div class="header">
-                <div class="header-left logo">
-                    <h1><a href="index.html">Harshil Resume</a></h1>
-                </div>
-                <div class="header-right">
-                    <nav>
-                        <ul>
-                            <li class="active">
-                                <a href="index.html" class="active"><span>Home</span></a>
-                            </li>
-                            <li class="active">
-                                <a href="Activity.html" class="active"><span>Activity</span></a>
-                            </li>
-                            <li class="active">
-                                <a href="Experience.html" class="active"><span>Experience</span></a>
-                            </li>
-                            <li class="active">
-                                <a href="Project.html" class="active"><span>Projects</span></a>
-                            </li>
-                            <li class="active">
-                                <a href="Skills.html" class="active"><span>Skills</span></a>
-                            </li>
-                            <li class="active">
-                                <a href="Contact.html" class="active"><span>Contact</span></a>
-                            </li>
-                            <li class="active">
-                                <a href="Resume.html" class="active"><span>Resume</span></a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="menu-icon animated wow zoomIn" data-wow-duration="1000ms" data-wow-delay="800ms">
-                        <span></span></div>
-                </div>
-                <div class="clearfix"> </div>
+    <!--top-nav-->
+    <div class="top-nav wow">
+        <div class="container">
+            <div class="navbar-header logo">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    Menu
+                </button>
             </div>
-            <div class="name">
-                <h2>Harshil Patel</h2>
-                <p> Web Developer</p>
-            </div>
-            <div class="social-icons animated wow bounceInDown" data-wow-duration="1000ms" data-wow-delay="800ms">
-                <ul class="top-links">
-                    <li><a href="https://www.facebook.com/harshil.patel.37625"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li><a href="https://www.instagram.com/harshilpatel95"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/harshilpatel95/"><i class="fa fa-linkedin"></i></a>
-                    </li>
-
-                    <li><a href="https://www.github.com/harshilpatel95"><i class="fa fa-github"></i></a></li>
-
-                </ul>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="menu">
+                    <ul class="nav navbar">
+                        <li class="active">
+                            <a href="index.html" class=""><span>Home</span></a>
+                        </li>
+                        <li class="active">
+                            <a href="Activity.html" class=""><span>Activity</span></a>
+                        </li>
+                        <li class="active">
+                            <a href="Experience.html" class=""><span>Experience</span></a>
+                        </li>
+                        <li class="active">
+                            <a href="Project.html" class=""><span>Projects</span></a>
+                        </li>
+                        <li class="active">
+                            <a href="Skills.html" class=""><span>Skills</span></a>
+                        </li>
+                        <li class="active">
+                            <a href="Contact.html" class=""><span>Contact</span></a>
+                        </li>
+                        <li class="active">
+                            <a href="Resume.html" class=""><span>Resume</span></a>
+                        </li>
+                    </ul>
+                    <div class="clearfix"> </div>
+                </div>
             </div>
         </div>
     </div>
-    <script>
-			(function ($) {
-				$(".menu-icon").on("click", function () {
-					$(this).toggleClass("open");
-					$(".container").toggleClass("nav-open");
-					$("nav ul li").toggleClass("animate");
-				});
-
-			})(jQuery);
-		</script>
-
-</div>
 
 
+    <!--//top-nav-->
 
-    <div id="experience" class="experience">
+    <!-- activity-->
+    <div id="activity" class="activity">
         <div class="container">
-            <span class="about-top-w3"> Certificate / Activity </span>
-            <h4 class="title-w3ls"></h4>
-
+            <h3 class="title">Certificate / Activity</h3>
             <div class="work-info">
+                <div class="col-md-6 work-left">
+                    <h4>March 2021 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span><a
+                            href="https://www.linkedin.com/learning/git-essential-training-the-basics">
+                            Git Essential Training</a></h5>
+                </div>
+                <div class="col-md-6 work-left">
+                    <h4>March 2021 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span> Worked on project called <br> &nbsp;<a
+                            href="https://github.com/harshilpatel95/Resume">
+                            My Resume Website</a></h5>
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <h4>February 2021 - March 2021 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5> <span class="glyphicon glyphicon-briefcase"> </span><a
+                            href="https://www.udemy.com/course/testerbootcamp">The Complete 2021 Software Testing
+                            Bootcamp</a></h5>
+                </div>
+                <div class="clearfix"> </div>
+
                 <div class="col-md-6 work-left">
                     <h4>August 2018 - December 2020 </h4>
                 </div>
                 <div class="col-md-6 work-right">
-                    <h5><span class="glyphicon glyphicon-briefcase"> </span> Master in Computer Science</h5>
-                    <h5><a href="https://www.calstatela.edu/">California State Univercity Los Angels</a></h5>
+                    <h5><span class="glyphicon glyphicon-briefcase"></span> Completed Master's in Computer Science <br>
+                        <a href="https://www.calstatela.edu/">California State University, Los Angeles
+                        </a></h5>
                 </div>
-            </div>
+                <div class="clearfix"> </div>
 
-                <div class="work-info">
-                    <div class="col-md-6 work-left">
-                        <h4>July 2013 - May 2017</h4>
-                    </div>
-                    <div class="col-md-6 work-right">
-                        <h5><span class="glyphicon glyphicon-briefcase"> </span> Bacholar in Computer Engineering</h5>
-                        <h5><a href="https://www.gtu.edu/">Gujarat Technological Univercity</a></h5>
-                    </div>
+                <div class="col-md-6 work-left">
+                    <h4>October 2020 - November 2020</h4>
                 </div>
+                <div class="col-md-6 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span> <a
+                            href="https://www.udemy.com/course/java-the-complete-java-developer-course">Java Programming
+                            for Software Developers Bootcamp</a>
+                    </h5>
+                </div>
+                <div class="clearfix"> </div>
 
-                    <div class="work-info">
-                        <div class="col-md-6 work-left">
-                            <h4>Feb 2021 </h4>
-                        </div>
-                        <div class="col-md-6 work-right">
-                            <h5><span class="glyphicon glyphicon-briefcase"> </span> <a
-                                    href="https://www.udemy.com/course/testerbootcamp">The Complete 2021 Software
-                                    Testing Bootcamp</a></h5>
-                        </div>
-                    </div>
+                <div class="col-md-6 work-left">
+                    <h4>September 2020 - October 2021 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span> <a
+                            href="https://www.udemy.com/course/complete-python-bootcamp">2020 Complete Python Bootcamp
+                        </a></h5>
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <h4>January 2020 - May 2020 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5> <span class="glyphicon glyphicon-briefcase"></span> Worked on project called <br><a
+                            href="https://github.com/harshilpatel95/Face-Recognization"> Face Recognition Model
+                        </a> </h5>
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <h4>March 2020 - May 2020 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span> Worked on project called <br>&nbsp;<a
+                            href="https://github.com/harshilpatel95/Secure-Election-System"> Secure-Elections
+                        </a></h5>
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <h4>January 2020 - March 2020 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5> <span class="glyphicon glyphicon-briefcase"></span> Worked on project called <br> <a
+                            href="https://github.com/harshilpatel95/Simplified-SSL-Secure-Socket-Layer-"> Simplified SSL
+                        </a></h5>
+
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <h4>August 2019 - December 2019 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span> Worked on project called<br>&nbsp;<a
+                            href="https://github.com/harshilpatel95/new-york-city-taxi-fare-prediction">
+                            New-York City Taxi Fare Prediction Model </a></h5>
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <h4>January 2019 - May 2019 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5> <span class="glyphicon glyphicon-briefcase"></span> Member of ACM at <br>California State
+                        University, Los Angeles</h5>
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <h4>February 2019 - April 2019 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span> Worked on project called<br>&nbsp;
+                        <a href="https://github.com/harshilpatel95/Candidate-Review"> Candidate Review</a>
+                    </h5>
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <h4>August 2018 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5> <span class="glyphicon glyphicon-briefcase"></span> Started Master's in Computer Science<br><a
+                            href="https://www.calstatela.edu/">California State University, Los Angeles
+                        </a></h5>
+
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <h4>June 2017 - December 2017 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span> Worked as a Web Developer intern at
+                        <br>&nbsp; <a href="https://www.tristatetechnology.com/"> Tristate Technology </a>
+                        Ahmedabad, India</h5>
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <h4>July 2013 - May 2017 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5> <span class="glyphicon glyphicon-briefcase"></span> Completed Bachelor's in Computer
+                        Engineering <br> <a href="https://www.gtu.edu/">Gujarat Technological University</a> </h5>
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <h4>June 2016 - April 2016 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span> Worked as a Software Developer intern at
+                        <br>&nbsp;<a href="https://sculptsoft.com/"> Sculptsoft </a>
+                        Ahmedabad, India</h5>
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <br>
+                    <h4>August 2016 - October 2016</h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5> <span class="glyphicon glyphicon-briefcase"></span>Volunteer at nonprofit YUVA Unstoppable,<br>
+                        Ahmedabad, India </h5>
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="col-md-6 work-left">
+                    <h4>July 2016 - March 2016 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span>Worked on project called <br> <a
+                            href="https://github.com/harshilpatel95/Lease-Management-System"> Lease
+                            Mangement System </a></h5>
+                </div>
+                <div class="clearfix"> </div>
 
 
-                            <div class="work-info">
-                                <div class="col-md-6 work-left">
-                                    <h4>Dec 2020 - Feb 2021 </h4>
-                                </div>
-                                <div class="col-md-6 work-right">
-                                    <h5><span class="glyphicon glyphicon-briefcase"> </span> <a
-                                            href="https://www.udemy.com/course/complete-python-bootcamp">The Complete
-                                            2021
-                                            complete-python-bootcamp </a></h5>
-                                </div>
-                            </div>
 
+                <div class="col-md-6 work-left">
+                    <h4>November 2015 - March 2016 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span>Member of White-oak club at Silver Oak
+                        college of
+                        Engineering and Technology</h5>
+                </div>
+                <div class="clearfix"> </div>
 
-                                <div class="work-info">
-                                    <div class="col-md-6 work-left">
-                                        <h4>September 2020 - Nov 2020 </h4>
-                                    </div>
-                                    <div class="col-md-6 work-right">
-                                        <h5><span class="glyphicon glyphicon-briefcase"> </span> <a
-                                                href="https://www.udemy.com/course/java-the-complete-java-developer-course">Java-the-complete-java-developer-course</a>
-                                        </h5>
-                                    </div>
-                                </div>
+                <div class="col-md-6 work-left">
+                    <h4>July 2013 </h4>
+                </div>
+                <div class="col-md-6 work-right">
+                    <h5> <span class="glyphicon glyphicon-briefcase"></span>Started Bachelor's in Computer Engineering
+                        <br><a href="https://www.gtu.edu/">Gujarat Technological University</a> </h5>
 
-
-                                    <div class="work-info">
-                                        <div class="col-md-6 work-left">
-                                            <h4>Jan 2019 - May 2019 </h4>
-                                        </div>
-                                        <div class="col-md-6 work-right">
-                                            <h5><span class="glyphicon glyphicon-briefcase"> </span> Member at
-                                                Chapter of ACM At California
-                                                State Univercity Los Angels</h5>
-                                        </div>
-                                    </div>
-
-                                        <div class="work-info">
-                                            <div class="col-md-6 work-left">
-                                                <h4>August 2016 - October 2016 </h4>
-                                            </div>
-                                            <div class="col-md-6 work-right">
-                                                <h5><span class="glyphicon glyphicon-briefcase"> </span>
-                                                    Volunteer at nonprofit YUVA Unstoppable,
-                                                    Ahmedabad, India</h5>
-                                            </div>
-                                        </div>
-
-                                            <div class="work-info">
-                                                <div class="col-md-6 work-left">
-                                                    <h4>November 2015 - March 2016 </h4>
-                                                </div>
-                                                <div class="col-md-6 work-right">
-                                                    <h5><span class="glyphicon glyphicon-briefcase"> </span>
-                                                        Member of Whitoak club at Silver Oak college of
-                                                        Engineering and Technology</h5>
-                                                </div>
-                                            </div>
-
-
+                </div>
+                <div class="clearfix"> </div>
             </div>
-        </div>
-
-
-    <div class="footer">
-        <div class="container">
-            <p>© 2017 Elegant Resume. All rights reserved | Design by <a href="Index.html">Harshil Patel</a></p>
         </div>
     </div>
-<script src="js/bars.js"></script>
+
+
+    <!--//activity-->
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <p>© 2021 My Resume. All rights reserved | Designed by <a href="index.html">Harshil Patel</a></p>
+        </div>
+    </div>
+    <!--//footer-->
+
+    <!--smooth-scrolling-of-move-up-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <!--//smooth-scrolling-of-move-up-->
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
