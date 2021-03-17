@@ -105,7 +105,7 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 }
 ul.address {
     margin-top: 2em;
-    border-top: 1px solid #AFAFAF;
+    border-top: 1px /*--solid #AFAFAF;--*/
     padding-top: 0.5em;
 }
 ul.address li {
